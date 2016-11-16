@@ -29,9 +29,10 @@ public class AddressBookArrayListData implements AddressBookDao {
     public AddressBookArrayListData() {
         try {
 
-            String path = "";
+            //String path = "";
             // create recordInput for inputing records
-            File inputFile = new File(path + "AddressBook.txt");
+            //File inputFile = new File(path + "AddressBook.txt");
+            File inputFile = new File("AddressBook.txt");
             // A connection stream connects to the text file
             FileReader fileReader = new FileReader(inputFile);
             // A file pointer always points to the text file
