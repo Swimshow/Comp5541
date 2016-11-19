@@ -1,76 +1,78 @@
 
 package comp5511_group02_assign04_addressbook.lib;
 
-// Just for testing 2016Nov13 by Aiken
+import java.util.Comparator;
 
 /**
- *
- * @author aiken
+ *  Comp5511, group02, Assignment4
+ *  
  */
-public class AddressBook implements Comparable<AddressBook>{
-    private String isbn;
-    private String title;
-    private String author;
-    private String publisher;
+public class AddressBook implements Comparable<AddressBook>,Comparator<AddressBook>{
+    private String firstName;
+    private String lastName;
+    private String companyName;
+    private String city;
     private String address;
-    private String price;
+    private String province;
+    private String postal;
+    private String phone;
+    private String email;
     
-    public AddressBook(String isbn, String title, String author, String publisher, String address, String price) {
-        this.isbn = isbn;
-        this.title = title;
-        this.author = author;
-        this.publisher = publisher;
+    // Constructor for AddressBook
+    public AddressBook(String firstName,String lastName,String companyName,String address,String city,String province,String postal,String phone,String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.companyName = companyName;
         this.address = address;
-        this.price = price;
+        this.city = city;
+        this.province = province;
+        this.postal = postal;
+        this.phone = phone;
+        this.email = email;
     }
     
     /**
      * Constructor for Binary Search to add or delete book
-     * @param isbn 
+     * @param phone 
      */
-    public AddressBook(String isbn) {
-        this.isbn = isbn;
+    public AddressBook(String phone) {
+        this.phone = phone;
     }
 
     public AddressBook(AddressBook book) {
-        this.isbn = book.getIsbn();
-        this.title = book.getTitle();
-        this.author = book.getAuthor();
-        this.publisher = book.getPublisher();
+        this.firstName = book.getFirstName();
+        this.lastName = book.getLastName();
+        this.companyName = book.getCompanyName();
         this.address = book.getAddress();
-        this.price = book.getPrice();
+        this.city = book.getCity();
+        this.province = book.getProvince();
+        this.postal = book.getPostal();
+        this.phone = book.getPhone();
+        this.email = book.getEmail();
     }    
+    // Geter and Seter for each field of the records
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
     
-    public String getIsbn() {
-        return isbn;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
-    }
-    
-    public String getTitle() {
-        return title;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public String getCompanyName() {
+        return companyName;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
+    public void setCompanyName(String companyName) {
+        this.companyName = companyName;
     }
 
     public String getAddress() {
@@ -80,65 +82,119 @@ public class AddressBook implements Comparable<AddressBook>{
     public void setAddress(String address) {
         this.address = address;
     }
-
-    public String getPrice() {
-        return price;
-    }
-
-    public void setPrice(String price) {
-        this.price = price;
-    }
     
-    /**
-     * Two book are equal if they have the same isbn
-     * @param isbnCode
-     * @return 
-     */
-    public boolean equals(AddressBook isbnCode) {
-        if (isbnCode == null) {
-            return false;
-        }
-        return isbnCode.getIsbn().equals(getIsbn());
+    public String getCity() {
+        return city;
     }
-         
-    //Returning records of the AddressBook and displaying on console
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getProvince() {
+        return province;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
+    }
+
+    public String getPostal() {
+        return postal;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setPostal(String postal) {
+        this.postal = postal;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+   
+    //Returning records of the AddressBook as strings for outputing to new file
     public String toString() {
         StringBuilder book_sb = new StringBuilder();
-        book_sb.append("Book ISBN: ");
-        book_sb.append(getIsbn());
-        book_sb.append(", Title: ");
-        book_sb.append(getTitle());
-        book_sb.append(", Author: ");
-        book_sb.append(getAuthor());
-        book_sb.append(", Publisher: ");
-        book_sb.append(getPublisher());
-        book_sb.append(", Publisher Address: ");
+        book_sb.append(getFirstName());
+        book_sb.append("; ");
+        book_sb.append(getLastName());
+        book_sb.append("; ");
+        book_sb.append(getCompanyName());
+        book_sb.append("; ");
         book_sb.append(getAddress());
-        book_sb.append(", Price: ");
-        book_sb.append(getPrice());
+        book_sb.append("; ");
+        book_sb.append(getCity());
+        book_sb.append("; ");
+        book_sb.append(getProvince());
+        book_sb.append("; ");
+        book_sb.append(getPostal());
+        book_sb.append("; ");
+        book_sb.append(getPhone());
+        book_sb.append("; ");
+        book_sb.append(getEmail());
+        book_sb.append(";");
         return book_sb.toString();
     }
-    //Returning records of the AddressBook and displaying on console
-    public String toIsbn() {
-        StringBuilder book_isbn_sb = new StringBuilder();
-        book_isbn_sb.append(getIsbn());
-        return book_isbn_sb.toString();
+    //Only for returning records of the AddressBook and displaying on console
+    public String listToString() {
+        StringBuilder book_sb = new StringBuilder();
+        book_sb.append(" firstName: ");
+        book_sb.append(getFirstName());
+        book_sb.append(", lastName: ");
+        book_sb.append(getLastName());
+        book_sb.append(", companyName: ");
+        book_sb.append(getCompanyName());
+        book_sb.append(", address: ");
+        book_sb.append(getAddress());
+        book_sb.append(", city: ");
+        book_sb.append(getCity());
+        book_sb.append(", province: ");
+        book_sb.append(getProvince());
+        book_sb.append(", postal: ");
+        book_sb.append(getPostal());
+        book_sb.append(", phone: ");
+        book_sb.append(getPhone());
+        book_sb.append(", email: ");
+        book_sb.append(getEmail());
+        return book_sb.toString();
     }
-    
-    //Returning title of the AddressBook and displaying on console
-    public String bookTitle() {
-        StringBuilder book_title_sb = new StringBuilder();
-        book_title_sb.append(getTitle());
-        return book_title_sb.toString();
-    }
-    
     /**
-     * this method is used in sort and binary search
-     * @param isbnCode
+     * this method is used for sorting based on phone number
+     * @param inputPhone
      * @return 
      */
     @Override
-    public int compareTo(AddressBook isbnCode) {
-        return this.getIsbn().compareTo(isbnCode.getIsbn());
+    public int compareTo(AddressBook inputPhone) {
+        return this.getPhone().compareTo(inputPhone.getPhone());
     }
+    /**
+     * This method in lamda expression is used for sorting based on first name.
+     */
+    public static Comparator<AddressBook> compareFirstName = (AddressBook firstName1, AddressBook firstName2) -> {
+        String firstName_1 = firstName1.getFirstName();
+        String firstName_2 = firstName2.getFirstName();
+        
+        //ascending order
+        return firstName_1.compareTo(firstName_2);
+        
+        //descending order
+        //return firstName_2.compareTo(firstName_1);
+    };
+    @Override
+    public int compare(AddressBook o1, AddressBook o2) {
+        //To change body of generated methods, choose Tools | Templates.
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+    
 }
