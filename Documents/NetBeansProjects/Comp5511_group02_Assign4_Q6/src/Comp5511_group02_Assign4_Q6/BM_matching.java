@@ -21,7 +21,7 @@ public class BM_matching {
         this.inputPattern = inputPattern;
     }
     
-    public void BMPatternAnalyst(String pattern) {
+   public void BMPatternAnalyst(String pattern) {
        
         String inputPatternAnalysis = pattern;
         // first we have to define last[]
@@ -113,6 +113,32 @@ public class BM_matching {
                     case 'z':
                         last[25] = inputPatternAnalysis.length() - x;
                         break;
+                    case '.':
+                        last[26] = inputPatternAnalysis.length() - x;
+                        break;
+                    case ',':
+                        last[27] = inputPatternAnalysis.length() - x;
+                        break;    
+                    case '!':
+                        last[28] = inputPatternAnalysis.length() - x;
+                        break;    
+                   case '?':
+                        last[29] = inputPatternAnalysis.length() - x;
+                        break;     
+                   case '"':
+                        last[30] = inputPatternAnalysis.length() - x;
+                        break;  
+                    
+                    case '-':
+                        last[31] = inputPatternAnalysis.length() - x;
+                        break;    
+                    case '(':
+                        last[32] = inputPatternAnalysis.length() - x;
+                        break;    
+                   case ')':
+                        last[33] = inputPatternAnalysis.length() - x;
+                        break;     
+                        
                 }
             }
         }
@@ -214,15 +240,44 @@ public class BM_matching {
                 case 'z':
                     i = last[25];
                     break;
+                 case '.':
+                       i =  last[26];
+                        break;
+                    case ',':
+                       i =  last[27];
+                        break;    
+                    case '!':
+                       i =  last[28] ;
+                        break;    
+                   case '?':
+                       i =  last[29] ;
+                        break;     
+                   case '"':
+                      i =   last[30] ;
+                        break;  
+                    
+                    case '-':
+                        i = last[31] ;
+                        break;    
+                    case '(':
+                        i = last[32];
+                        break;    
+                   case ')':
+                       i =  last[33];
+                        break; 
             }
 
             if (i == 0) {
                 index = index + BStart + 1;
-            } else {
-                index = index + inputPattern.length() - 1 - i;
-            }
+            } 
+             else{
+               if((inputPattern.length() - 1-i)==0){index++;}
+               else{
+               index = index + inputPattern.length() - 1-i;}
+            
+           }
 
-            if ((index + BStart + 2) >= ref_file.length()) {
+            if ((index + BStart + 1) >= (ref_file.length()-1)) {
                 System.out.println("No match!");
                 System.out.println("Number of comparisions are: " + compare + "    ");
                 //return;
