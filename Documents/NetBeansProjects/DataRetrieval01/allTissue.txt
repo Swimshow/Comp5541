@@ -1,0 +1,46 @@
+header
+Hippocampus
+Cerebral cortex
+Caudate
+Cerebellum
+Thyroid gland
+Parathyroid gland
+Adrenal gland
+Appendix
+Spleen
+Bone marrow
+Lymph node
+Tonsil
+Heart muscle
+Smooth muscle
+Skeletal muscle
+Nasopharynx
+Bronchus
+Lung
+Liver
+Gallbladder
+Pancreas
+Esophagus
+Oral mucosa
+Salivary gland
+Rectum
+Stomach
+Duodenum
+Small intestine
+Colon
+Urinary bladder
+Kidney
+Testis
+Epididymis
+Prostate
+Seminal vesicle
+Fallopian tube
+Placenta
+Breast
+Vagina
+Cervix, uterine
+Endometrium
+Ovary
+Adipose tissue
+Soft tissue
+Skin

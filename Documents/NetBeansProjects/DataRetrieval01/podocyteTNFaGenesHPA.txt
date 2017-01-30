@@ -1,0 +1,172 @@
+
+ENSG00000106351-AGFG2 HPA: 6.3 GTEx: 8.1 FANTOM5: 27.7 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000142208-AKT1 HPA: 31.8 GTEx: 28.5 FANTOM5: 30.7 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000105221-AKT2 HPA: 29.0 GTEx: 19.7 FANTOM5: 54.8 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000117020-AKT3 HPA: 12.6 GTEx: 5.4 FANTOM5: 12.2 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000111348-ARHGDIB HPA: 68.8 GTEx: 43.6 FANTOM5: 219.3 Cells in glomeruli: Low Cells in tubules: Not detected 
+ENSG00000115966-ATF2 HPA: 23.9 GTEx: 6.6 FANTOM5: 70.7 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000128272-ATF4 HPA: 158.9 GTEx: 137.7 FANTOM5: 198.7 Cells in glomeruli: Low Cells in tubules: Low 
+ENSG00000213676-ATF6B HPA: 10.1 GTEx: 26.8 FANTOM5: 8.4 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000156735-BAG4 HPA: 9.6 GTEx: 3.4 FANTOM5: 27.9 Cells in glomeruli: Medium Cells in tubules: High 
+ENSG00000069399-BCL3 HPA: 4.5 GTEx: 24.9 FANTOM5: 69.4 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000110330-BIRC2 HPA: 30.1 GTEx: 12.2 FANTOM5: 50.2 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000023445-BIRC3 HPA: 8.1 GTEx: 5.6 FANTOM5: 22.1 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000084774-CAD HPA: 4.8 GTEx: 5.7 FANTOM5: 15.0 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000003400-CASP10 HPA: 5.5 GTEx: 3.3 FANTOM5: 20.8 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000106144-CASP2 HPA: 6.0 GTEx: 5.8 FANTOM5: 5.6 Cells in glomeruli: Medium Cells in tubules: High 
+ENSG00000164305-CASP3 HPA: 9.1 GTEx: 5.1 FANTOM5: 21.4 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000165806-CASP7 HPA: 18.6 GTEx: 7.5 FANTOM5: 30.0 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000064012-CASP8 HPA: 11.8 GTEx: 3.1 FANTOM5: 38.5 Cells in glomeruli: Not detected Cells in tubules: High 
+ENSG00000108691-CCL2 HPA: 103.1 GTEx: 51.5 FANTOM5: 178.2 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000115009-CCL20 HPA: 2.0 GTEx: 4.7 FANTOM5: 9.2 
+ENSG00000271503-CCL5 HPA: 2.9 FANTOM5: 18.0 
+ENSG00000139193-CD27 HPA: 0.4 GTEx: 2.1 FANTOM5: 3.0 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000101017-CD40 HPA: 7.6 GTEx: 9.2 FANTOM5: 8.3 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000102245-CD40LG HPA: 0.4 GTEx: 0.3 FANTOM5: 2.4 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000125726-CD70 HPA: 0.1 GTEx: 0.2 FANTOM5: 0.4 
+ENSG00000172216-CEBPB HPA: 7.2 GTEx: 31.6 FANTOM5: 130.5 Cells in glomeruli: Low Cells in tubules: Low 
+ENSG00000003402-CFLAR HPA: 59.6 GTEx: 8.9 FANTOM5: 98.9 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000213341-CHUK HPA: 21.9 GTEx: 2.3 FANTOM5: 42.7 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000169372-CRADD HPA: 17.7 GTEx: 2.9 FANTOM5: 16.4 Cells in glomeruli: Medium Cells in tubules: Low 
+ENSG00000118260-CREB1 HPA: 12.8 GTEx: 2.8 FANTOM5: 44.2 Cells in glomeruli: High Cells in tubules: High 
+ENSG00000107175-CREB3 HPA: 19.7 GTEx: 34.0 FANTOM5: 29.2 
+ENSG00000157613-CREB3L1 HPA: 1.3 GTEx: 1.7 FANTOM5: 5.4 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000182158-CREB3L2 HPA: 21.1 GTEx: 8.6 FANTOM5: 69.0 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000060566-CREB3L3 HPA: 1.4 GTEx: 0.6 FANTOM5: 2.9 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000143578-CREB3L4 HPA: 6.5 GTEx: 3.7 FANTOM5: 5.0 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000146592-CREB5 HPA: 3.1 GTEx: 1.6 FANTOM5: 19.1 
+ENSG00000184371-CSF1 HPA: 8.2 GTEx: 10.0 FANTOM5: 11.1 
+ENSG00000164400-CSF2 HPA: 0.0 GTEx: 0.0 FANTOM5: 0.0 
+ENSG00000006210-CX3CL1 HPA: 20.5 GTEx: 14.1 FANTOM5: 48.5 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000163739-CXCL1 HPA: 3.1 GTEx: 10.4 FANTOM5: 32.8 
+ENSG00000169245-CXCL10 HPA: 7.6 GTEx: 4.4 FANTOM5: 7.9 
+ENSG00000081041-CXCL2 HPA: 4.7 GTEx: 6.7 FANTOM5: 15.9 
+ENSG00000163734-CXCL3 HPA: 0.4 GTEx: 0.8 FANTOM5: 1.2 
+ENSG00000163735-CXCL5 HPA: 0.1 GTEx: 0.1 FANTOM5: 0.1 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000160049-DFFA HPA: 18.0 GTEx: 5.5 FANTOM5: 24.2 Cells in glomeruli: Low Cells in tubules: High 
+ENSG00000087470-DNM1L HPA: 31.4 GTEx: 12.1 FANTOM5: 37.3 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000120129-DUSP1 HPA: 170.9 GTEx: 152.5 FANTOM5: 205.4 Cells in glomeruli: Not detected Cells in tubules: High 
+ENSG00000131080-EDA2R HPA: 1.1 GTEx: 0.9 FANTOM5: 2.8 
+ENSG00000078401-EDN1 HPA: 6.8 GTEx: 5.4 FANTOM5: 11.6 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000168040-FADD HPA: 13.7 GTEx: 11.1 FANTOM5: 21.3 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000026103-FAS HPA: 9.8 GTEx: 6.3 FANTOM5: 20.2 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000117560-FASLG HPA: 0.2 GTEx: 0.1 FANTOM5: 0.6 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000170345-FOS HPA: 266.3 GTEx: 66.9 FANTOM5: 90.0 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000090339-ICAM1 HPA: 10.2 GTEx: 19.8 FANTOM5: 46.5 Cells in glomeruli: High Cells in tubules: Not detected 
+ENSG00000070061-IKBKAP HPA: 16.2 GTEx: 8.4 FANTOM5: 20.7 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000104365-IKBKB HPA: 6.2 GTEx: 12.7 FANTOM5: 18.5 Cells in glomeruli: Low Cells in tubules: Low 
+ENSG00000269335-IKBKG HPA: 6.5 FANTOM5: 9.8 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000164136-IL15 HPA: 5.6 GTEx: 1.1 FANTOM5: 3.8 Cells in glomeruli: Low Cells in tubules: Not detected 
+ENSG00000115604-IL18R1 HPA: 2.3 GTEx: 2.9 FANTOM5: 14.8 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000125538-IL1B HPA: 4.1 GTEx: 1.0 FANTOM5: 2.1 
+ENSG00000136244-IL6 HPA: 2.5 GTEx: 1.4 FANTOM5: 1.7 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000078747-ITCH HPA: 21.2 GTEx: 6.4 FANTOM5: 81.5 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000101384-JAG1 HPA: 23.3 GTEx: 13.1 FANTOM5: 45.4 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000177606-JUN HPA: 68.7 GTEx: 50.8 FANTOM5: 40.2 Cells in glomeruli: Not detected Cells in tubules: High 
+ENSG00000171223-JUNB HPA: 54.1 GTEx: 100.9 FANTOM5: 213.4 Cells in glomeruli: Medium Cells in tubules: Not detected 
+ENSG00000128342-LIF HPA: 1.8 GTEx: 7.9 FANTOM5: 1.5 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000160789-LMNA HPA: 47.7 GTEx: 36.0 FANTOM5: 110.6 Cells in glomeruli: High Cells in tubules: High 
+ENSG00000113368-LMNB1 HPA: 1.2 GTEx: 1.6 FANTOM5: 5.6 Cells in glomeruli: High Cells in tubules: High 
+ENSG00000176619-LMNB2 HPA: 3.5 GTEx: 7.2 FANTOM5: 11.6 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000226979-LTA HPA: 0.0 GTEx: 0.2 FANTOM5: 0.1 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000227507-LTB HPA: 0.1 GTEx: 8.2 FANTOM5: 3.9 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000111321-LTBR HPA: 33.8 GTEx: 37.3 FANTOM5: 113.7 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000110514-MADD HPA: 14.4 GTEx: 10.0 FANTOM5: 27.1 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000187391-MAGI2 HPA: 5.4 GTEx: 1.8 FANTOM5: 15.0 Cells in glomeruli: Medium Cells in tubules: Low 
+ENSG00000169032-MAP2K1 HPA: 30.1 GTEx: 10.7 FANTOM5: 51.4 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000034152-MAP2K3 HPA: 25.3 GTEx: 23.0 FANTOM5: 31.1 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000065559-MAP2K4 HPA: 16.7 GTEx: 6.7 FANTOM5: 35.3 Cells in glomeruli: Medium Cells in tubules: Not detected 
+ENSG00000108984-MAP2K6 HPA: 6.4 GTEx: 0.9 FANTOM5: 15.3 Cells in glomeruli: High Cells in tubules: Medium 
+ENSG00000076984-MAP2K7 HPA: 7.9 GTEx: 13.8 FANTOM5: 28.1 Cells in glomeruli: Low Cells in tubules: Low 
+ENSG00000095015-MAP3K1 HPA: 10.8 GTEx: 5.3 FANTOM5: 16.9 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000006062-MAP3K14 HPA: 3.5 GTEx: 3.2 FANTOM5: 13.8 
+ENSG00000197442-MAP3K5 HPA: 11.2 GTEx: 6.9 FANTOM5: 9.3 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000135341-MAP3K7 HPA: 12.1 GTEx: 5.6 FANTOM5: 23.1 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000107968-MAP3K8 HPA: 7.4 GTEx: 4.5 FANTOM5: 15.1 Cells in glomeruli: Medium Cells in tubules: High 
+ENSG00000100030-MAPK1 HPA: 36.8 GTEx: 8.5 FANTOM5: 91.6 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000109339-MAPK10 HPA: 26.4 GTEx: 3.5 FANTOM5: 29.7 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000185386-MAPK11 HPA: 2.7 GTEx: 8.6 FANTOM5: 3.3 Cells in glomeruli: Low Cells in tubules: High 
+ENSG00000188130-MAPK12 HPA: 3.9 GTEx: 5.8 FANTOM5: 4.1 Cells in glomeruli: Low Cells in tubules: Low 
+ENSG00000156711-MAPK13 HPA: 9.2 GTEx: 9.6 FANTOM5: 7.4 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000112062-MAPK14 HPA: 25.4 GTEx: 10.0 FANTOM5: 32.0 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000102882-MAPK3 HPA: 35.7 GTEx: 19.2 FANTOM5: 25.7 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000107643-MAPK8 HPA: 17.8 GTEx: 4.0 FANTOM5: 36.0 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000050748-MAPK9 HPA: 22.6 GTEx: 4.9 FANTOM5: 16.8 Cells in glomeruli: High Cells in tubules: Medium 
+ENSG00000168404-MLKL HPA: 3.1 GTEx: 7.3 FANTOM5: 5.9 
+ENSG00000157227-MMP14 HPA: 16.2 GTEx: 30.2 FANTOM5: 75.5 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000149968-MMP3 HPA: 0.1 GTEx: 0.3 FANTOM5: 0.2 
+ENSG00000100985-MMP9 HPA: 0.4 GTEx: 1.5 FANTOM5: 4.1 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000109320-NFKB1 HPA: 15.1 GTEx: 7.9 FANTOM5: 31.2 Cells in glomeruli: Low Cells in tubules: Low 
+ENSG00000100906-NFKBIA HPA: 68.5 GTEx: 65.5 FANTOM5: 159.4 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000064300-NGFR HPA: 2.9 GTEx: 5.7 FANTOM5: 10.6 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000167207-NOD2 HPA: 0.2 GTEx: 0.4 FANTOM5: 0.4 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000149269-PAK1 HPA: 28.0 GTEx: 10.6 FANTOM5: 36.4 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000180370-PAK2 HPA: 24.0 GTEx: 9.8 FANTOM5: 83.0 Cells in glomeruli: Low Cells in tubules: Not detected 
+ENSG00000143799-PARP1 HPA: 28.2 GTEx: 10.2 FANTOM5: 41.1 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000247077-PGAM5 HPA: 11.5 GTEx: 0.3 FANTOM5: 18.6 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000008438-PGLYRP1 HPA: 0.0 GTEx: 0.5 FANTOM5: 0.0 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000121879-PIK3CA HPA: 7.6 GTEx: 2.4 FANTOM5: 20.5 Cells in glomeruli: Low Cells in tubules: High 
+ENSG00000051382-PIK3CB HPA: 34.0 GTEx: 6.4 FANTOM5: 37.0 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000171608-PIK3CD HPA: 3.0 GTEx: 2.5 FANTOM5: 3.6 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000105851-PIK3CG HPA: 1.1 GTEx: 0.2 FANTOM5: 2.9 
+ENSG00000145675-PIK3R1 HPA: 38.5 GTEx: 7.5 FANTOM5: 154.8 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000105647-PIK3R2 HPA: 11.8 FANTOM5: 32.6 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000117461-PIK3R3 HPA: 10.5 GTEx: 4.9 FANTOM5: 20.1 Cells in glomeruli: High Cells in tubules: Medium 
+ENSG00000141506-PIK3R5 HPA: 0.5 GTEx: 1.6 FANTOM5: 6.2 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000253729-PRKDC HPA: 10.1 GTEx: 5.6 FANTOM5: 55.2 Cells in glomeruli: High Cells in tubules: High 
+ENSG00000128789-PSMG2 HPA: 62.4 GTEx: 24.5 FANTOM5: 63.9 Cells in glomeruli: Medium Cells in tubules: High 
+ENSG00000073756-PTGS2 HPA: 5.9 GTEx: 3.0 FANTOM5: 2.7 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000139687-RB1 HPA: 19.1 GTEx: 5.7 FANTOM5: 42.5 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000173039-RELA HPA: 21.3 GTEx: 25.1 FANTOM5: 113.0 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000054967-RELT HPA: 0.5 GTEx: 2.1 FANTOM5: 2.2 
+ENSG00000137275-RIPK1 HPA: 15.1 GTEx: 10.6 FANTOM5: 28.0 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000129465-RIPK3 HPA: 1.9 GTEx: 3.2 FANTOM5: 1.8 Cells in glomeruli: High Cells in tubules: High 
+ENSG00000162302-RPS6KA4 HPA: 4.4 GTEx: 11.9 FANTOM5: 14.0 Cells in glomeruli: High Cells in tubules: Medium 
+ENSG00000100784-RPS6KA5 HPA: 2.9 GTEx: 0.8 FANTOM5: 4.6 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000007908-SELE HPA: 1.9 GTEx: 1.7 FANTOM5: 3.8 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000184557-SOCS3 HPA: 16.4 GTEx: 40.4 FANTOM5: 58.1 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000197694-SPTAN1 HPA: 34.1 GTEx: 24.7 FANTOM5: 156.2 Cells in glomeruli: High Cells in tubules: High 
+ENSG00000100324-TAB1 HPA: 6.6 GTEx: 8.1 FANTOM5: 13.0 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000055208-TAB2 HPA: 34.8 GTEx: 11.1 FANTOM5: 0.1 
+ENSG00000157625-TAB3 HPA: 15.3 GTEx: 3.2 FANTOM5: 18.3 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000232810-TNF HPA: 0.0 GTEx: 0.7 FANTOM5: 4.6 
+ENSG00000118503-TNFAIP3 HPA: 7.8 GTEx: 7.2 FANTOM5: 18.6 Cells in glomeruli: Medium Cells in tubules: Low 
+ENSG00000104689-TNFRSF10A HPA: 4.0 GTEx: 2.4 FANTOM5: 12.5 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000120889-TNFRSF10B HPA: 9.5 GTEx: 11.6 FANTOM5: 24.9 Cells in glomeruli: High Cells in tubules: High 
+ENSG00000173535-TNFRSF10C HPA: 1.3 GTEx: 1.2 FANTOM5: 3.9 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000173530-TNFRSF10D HPA: 6.9 GTEx: 6.9 FANTOM5: 25.0 
+ENSG00000141655-TNFRSF11A HPA: 0.3 GTEx: 0.2 FANTOM5: 2.0 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000164761-TNFRSF11B HPA: 25.5 GTEx: 11.6 FANTOM5: 34.3 
+ENSG00000006327-TNFRSF12A HPA: 22.3 GTEx: 54.6 FANTOM5: 126.2 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000240505-TNFRSF13B HPA: 0.0 GTEx: 0.1 FANTOM5: 0.9 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000159958-TNFRSF13C HPA: 0.1 GTEx: 0.6 FANTOM5: 1.7 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000157873-TNFRSF14 HPA: 9.8 GTEx: 46.9 FANTOM5: 42.2 Cells in glomeruli: Not detected Cells in tubules: High 
+ENSG00000048462-TNFRSF17 HPA: 0.3 GTEx: 0.3 FANTOM5: 1.2 
+ENSG00000186891-TNFRSF18 HPA: 0.1 GTEx: 0.7 FANTOM5: 0.4 Cells in glomeruli: Medium Cells in tubules: Not detected 
+ENSG00000127863-TNFRSF19 HPA: 16.7 GTEx: 4.1 FANTOM5: 9.5 
+ENSG00000067182-TNFRSF1A HPA: 40.6 GTEx: 43.9 FANTOM5: 241.2 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000028137-TNFRSF1B HPA: 3.5 GTEx: 10.7 FANTOM5: 32.5 Cells in glomeruli: Not detected Cells in tubules: High 
+ENSG00000146072-TNFRSF21 HPA: 52.6 GTEx: 18.8 FANTOM5: 71.5 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000215788-TNFRSF25 HPA: 0.3 GTEx: 6.3 FANTOM5: 0.5 
+ENSG00000186827-TNFRSF4 HPA: 0.3 GTEx: 1.8 FANTOM5: 0.6 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000243509-TNFRSF6B HPA: 0.4 FANTOM5: 3.8 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000120949-TNFRSF8 HPA: 0.1 GTEx: 0.2 FANTOM5: 0.6 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000049249-TNFRSF9 HPA: 0.3 GTEx: 0.0 FANTOM5: 0.1 
+ENSG00000121858-TNFSF10 HPA: 149.5 GTEx: 52.1 FANTOM5: 397.4 Cells in glomeruli: Medium Cells in tubules: High 
+ENSG00000120659-TNFSF11 HPA: 0.1 GTEx: 0.0 FANTOM5: 0.1 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000239697-TNFSF12 HPA: 6.8 GTEx: 34.4 FANTOM5: 37.6 Cells in glomeruli: Medium Cells in tubules: Medium 
+ENSG00000161955-TNFSF13 HPA: 52.2 GTEx: 16.4 FANTOM5: 143.9 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000102524-TNFSF13B HPA: 1.2 GTEx: 1.0 FANTOM5: 1.6 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000125735-TNFSF14 HPA: 0.2 GTEx: 0.8 FANTOM5: 0.3 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000181634-TNFSF15 HPA: 3.6 GTEx: 2.6 FANTOM5: 13.2 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000120337-TNFSF18 HPA: 0.3 GTEx: 0.0 FANTOM5: 0.0 
+ENSG00000117586-TNFSF4 HPA: 0.9 GTEx: 0.4 FANTOM5: 0.0 Cells in glomeruli: Low Cells in tubules: Medium 
+ENSG00000106952-TNFSF8 HPA: 1.1 GTEx: 0.4 FANTOM5: 3.7 
+ENSG00000125657-TNFSF9 HPA: 0.2 GTEx: 0.5 FANTOM5: 1.0 
+ENSG00000102871-TRADD HPA: 7.1 GTEx: 13.9 FANTOM5: 18.5 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000056558-TRAF1 HPA: 3.1 GTEx: 5.3 FANTOM5: 1.3 Cells in glomeruli: Not detected Cells in tubules: Low 
+ENSG00000127191-TRAF2 HPA: 3.5 GTEx: 4.2 FANTOM5: 3.2 Cells in glomeruli: Low Cells in tubules: Low 
+ENSG00000131323-TRAF3 HPA: 4.3 GTEx: 3.7 FANTOM5: 5.8 Cells in glomeruli: Not detected Cells in tubules: Medium 
+ENSG00000082512-TRAF5 HPA: 2.9 GTEx: 3.3 FANTOM5: 9.1 Cells in glomeruli: Low Cells in tubules: Not detected 
+ENSG00000162692-VCAM1 HPA: 62.7 GTEx: 44.2 FANTOM5: 314.7 Cells in glomeruli: Not detected Cells in tubules: Not detected 
+ENSG00000150630-VEGFC HPA: 3.8 GTEx: 2.6 FANTOM5: 2.1 
