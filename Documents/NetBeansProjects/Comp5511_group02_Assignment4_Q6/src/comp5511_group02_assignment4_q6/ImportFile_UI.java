@@ -1,4 +1,3 @@
-
 package comp5511_group02_assignment4_q6;
 
 import java.io.BufferedReader;
@@ -60,9 +59,20 @@ public class ImportFile_UI {
                 }// end of Brute-Force matching algorithm
 
                 // Call BM matching algorithm
-                BM_matching call_BM = new BM_matching(textWords, pattern);
-                call_BM.BMPatternAnalyst(pattern);
-                call_BM.CallBM();
+//                BM_matching call_BM = new BM_matching(textWords, pattern);
+//                call_BM.BMPatternAnalyst(pattern);
+//                call_BM.CallBM();
+                BM call_BM = new BM(textWords, pattern);
+                call_BM.BM_lastOccurFunction(pattern);
+                int[] bmResult = call_BM.CallBM();
+                if (bmResult[0] == -1) {
+                    System.out.println("Your pattern is not found");
+                    System.out.println("");
+                } else {
+                    System.out.println("The position of first appearance in the text is =  " + bmResult[0]);
+                    System.out.println("The total number of comparison is: " + bmResult[1]);
+                    System.out.println("");
+                }
 
                 // Call KMP matching algorithm
                 KmpMatching call_kmp = new KmpMatching();

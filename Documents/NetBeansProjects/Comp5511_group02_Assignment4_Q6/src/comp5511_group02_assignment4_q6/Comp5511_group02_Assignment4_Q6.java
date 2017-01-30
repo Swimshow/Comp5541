@@ -39,10 +39,21 @@ public class Comp5511_group02_Assignment4_Q6 {
         }// end of Brute-Force matching algorithm
         
         // Call BM matching algorithm
-        BM_matching call_BM = new BM_matching(text_builder.toString(), pattern_builder.toString());
-        call_BM.BMPatternAnalyst(pattern_builder.toString());
-        call_BM.CallBM();
-        
+//        BM_matching call_BM = new BM_matching(text_builder.toString(), pattern_builder.toString());
+//        call_BM.BMPatternAnalyst(pattern_builder.toString());
+//        call_BM.CallBM();
+        BM call_BM = new BM(text_builder.toString(), pattern_builder.toString());
+        call_BM.BM_lastOccurFunction(pattern_builder.toString());
+        int[] bmResult = call_BM.CallBM();
+        System.out.println("Using BM Matching:");
+        if (bmResult[0] == -1) {
+            System.out.println("Your pattern is not found");
+            System.out.println("");
+        } else {
+            System.out.println("The position of first appearance in the text is =  " + bmResult[0]);
+            System.out.println("The total number of comparison is: " + bmResult[1]);
+            System.out.println("");
+        }
         // Call KMP matching algorithm
         KmpMatching call_kmp = new KmpMatching();
         System.out.println("");
