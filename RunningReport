@@ -1,0 +1,12 @@
+Iteration I
+
+Creating a simple pivot table from a spreadsheet 
+
+1.	A raw sales transaction report is loaded automatically into the system. 
+2.	The user specifies the row, column, value and page. 
+3.	The pivot table is generated and saved. 
+
+Primary actor : user 
+Secondary actor : spreadsheet
+
+
