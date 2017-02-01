@@ -6,8 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
-/**Comp5541 group:
- * comp5541 iteration 1 - build pivot table @ aiken 2017/Jan/28
+/**
+ * Comp5541 group:
+ * comp5541 iteration 1 - build pivot table @ Aiken 2017/Jan/28
  */
 public class Comp5541_ExcelPivotTable {
     
