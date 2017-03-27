@@ -139,17 +139,28 @@ public class HTMLGenerator {
 			for (int j = 0; j < source[i].length; j++) {
 				// Makes the first row the header with the HTML tags <th>... </th>.
 				// Otherwise, uses the regular <tr>...</tr>.
+				// Additionally, this will look for repeated strings in columns and rows
+				// and not print them.
 				if (i < rows) {
 					// Add nothing in case there is a null string.
 					if (source[i][j] == null) {
 						html.add("\t\t\t\t\t<th></th>");
 					} else {
-						html.add("\t\t\t\t\t<th>" + source[i][j] + "</th>");
+						if (j > 0) {
+							// If the label is a duplicate, do not add it.
+							if (source[i][j - 1] != null && source[i][j - 1].equals(source[i][j])) {
+								html.add("\t\t\t\t\t<th></th>");
+							} else {
+								html.add("\t\t\t\t\t<th>" + source[i][j] + "</th>");
+							}
+						} else {
+							html.add("\t\t\t\t\t<th>" + source[i][j] + "</th>");
+						}
 					}
 				} else {
 					// Add nothing in case the column part of the second column.
 					if (j < columns) {
-						if (i > 0 && i < source.length - 1) {
+						if (i > 0) {
 							// If the label is a duplicate, do not add it.
 							if (source[i - 1][j] != null && source[i - 1][j].equals(source[i][j])) {
 								html.add("\t\t\t\t\t<td></td>");
