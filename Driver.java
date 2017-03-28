@@ -13,14 +13,22 @@ public class Driver {
 			Connection conn1 = DatabaseHandler.connectToDatabase("sqlserver", "0.tcp.ngrok.io", "14759", "master", "sa", "P@55w0rd");
 			String tables = "COFFEES SUPPLIERS";
 			String query = DatabaseHandler.joinTables(tables, "join", "SUP_ID");
-			DatabaseHandler.printJoinedTable(conn1, query);
-			DatabaseHandler.saveJoinedTableAsCSV(conn1, query, "testJoin");
+			DatabaseHandler.printJoinedTable(conn1, query, “SUP_ID”);
+			DatabaseHandler.saveJoinedTableAsCSV(conn1, query, "testJoinTwoTables”, “SUP_ID”);
 
-			String tables2 = "COFFEES SUPPLIERS MSreplication_options";
+			String tables2 = "COFFEES SUPPLIERS”;
 			System.out.println();
 			String query2 = DatabaseHandler.joinTables(tables2, "crossjoin", "");  
-			DatabaseHandler.printJoinedTable(conn1, query2);
-			DatabaseHandler.saveJoinedTableAsCSV(conn1, query2, "testJoin");
+			DatabaseHandler.printJoinedTable(conn1, query2, “SUP_ID”);
+			DatabaseHandler.saveJoinedTableAsCSV(conn1, query2, "testCrossJoin1”, “SUP_ID”);
+
+			String tables = "COFFEES SUPPLIERS MERCH_SUPPLIERS”;
+			String query = DatabaseHandler.joinTables(tables, "join", "SUP_ID");
+			DatabaseHandler.printJoinedTable(conn1, query, “SUP_ID”);
+			DatabaseHandler.saveJoinedTableAsCSV(conn1, query, "testJoinThreeTables”, “SUP_ID”);
+
+
+
 			DatabaseHandler.closeConnection(conn1);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
