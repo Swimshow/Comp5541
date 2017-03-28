@@ -10,7 +10,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
-import jdbcTools.JDBCTutorialUtilities;
 
 public class DatabaseHandler {
 
@@ -173,6 +172,29 @@ public class DatabaseHandler {
 						if(i==allTables.length-2) continue;
 
 						subquery1 += (" JOIN " + allTables[i+1] + " ON " + allTables[i+1] 
+								+ "." + joinOn + " = " + allTables[i] + "." + joinOn + " ");
+					}
+				}
+
+				query = "SELECT * FROM " + subquery1; 
+			}
+		}
+		if(joinType=="outerjoin"){
+			if(joinOn == null){ // No column is selected to join on
+				System.out.println("Error: no column to join the tables on is specified.");
+			}
+			else {
+				String subquery1 = allTables[0]; // Subquery "TableA JOIN Table B on TableA.ID = TableB.ID"
+				for (int i = 0; i< allTables.length; i++){
+					if(i==allTables.length-1 && allTables.length>2){ // last element must be joined with the first element
+						subquery1 += (" FULL JOIN " + allTables[i] + " ON " + allTables[i] 
+								+ "." + joinOn + " = " + allTables[0] + "." + joinOn);
+					}
+					else {
+						if(allTables.length==2 && i==allTables.length-1) break; // the case with two tables only 
+						if(i==allTables.length-2) continue;
+
+						subquery1 += (" FULL JOIN " + allTables[i+1] + " ON " + allTables[i+1] 
 								+ "." + joinOn + " = " + allTables[i] + "." + joinOn + " ");
 					}
 				}
