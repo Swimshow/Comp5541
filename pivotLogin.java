@@ -1,5 +1,4 @@
 
-package comp5541;
 
 import javax.swing.JFrame;
 
