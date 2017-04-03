@@ -1,0 +1,11 @@
+COF_NAME,SUP_ID,PRICE,SALES,TOTAL
+Brazilian,456,7.99,0,0
+Brazilian_Decaf,927,8.99,0,0
+Colombian,101,7.99,0,0
+Colombian_Decaf,101,8.99,0,0
+Espresso,150,9.99,0,0
+French_Roast,49,8.99,0,0
+French_Roast_Decaf,49,9.99,0,0
+Kenya,927,8.99,0,0
+Kenya_Decaf,456,9.99,0,0
+PourOver,456,9.99,0,0
