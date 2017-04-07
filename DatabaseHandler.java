@@ -11,30 +11,30 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 
-public class DatabaseHandler {
+public abstract class DatabaseHandler {
 
-	public DatabaseHandler(){
+	
+	/**
+	 * Connects to a database using the provided parameters.
+	 * @param dbms - database management system, either "sqlserver" or "mysql"
+	 * @param serverName - server address
+	 * @param portNumber - port number
+	 * @param dbName - database name
+	 * @param userName 
+	 * @param password 
+	 * @return
+	 * @throws SQLException
+	 */
+	public abstract Connection connectToDatabase(String serverName, String portNumber, String dbName, String userName, String password) throws SQLException;
+		
 
-	}
 	/**
 	 * Accepts a connection, a database name and database management system name ("sqlserver" or "mysql") and generates 
 	 * the query retrieving the list of all table in the database.
 	 * @param dbName
 	 * @param dbms - "sqlserver" or "mysql"
 	 */
-	public static void showTables(Connection con, String dbName, String dbms) throws SQLException{
-		String query = null;
-		if(dbms=="sqlserver") query = ("SELECT * FROM " + dbName + ".INFORMATION_SCHEMA.TABLES");
-		else if(dbms=="mysql") query = ("SHOW TABLES IN " + dbName);
-		else System.out.println("Unknown database type.");
-
-		try{
-			if(query!=null) executeQuery(con, query);
-		}
-		catch (SQLException e) {
-			System.out.println(e);
-		}
-	}
+	public abstract void showTables(Connection con, String dbName) throws SQLException;
 
 	/**
 	 * Shows the schema for a specified table. 
@@ -42,19 +42,7 @@ public class DatabaseHandler {
 	 * @param tableName
 	 * @param dbms - "sqlserver" or "mysql"
 	 */
-	public static void showTableSchema(Connection con, String tableName, String dbms){
-		String query = null;
-		if(dbms=="sqlserver") query = ("sp_columns " + tableName);
-		else if(dbms=="mysql") query = ("desc " + tableName);
-		else System.out.println("Unknown database type.");
-
-		try{
-			if(query!=null) executeQuery(con, query);
-		}
-		catch (SQLException e) {
-			System.out.println(e);
-		}
-	}
+	public abstract void showTableSchema(Connection con, String tableName);
 	/**
 	 * Takes in a query and a connection, executes it and prints out the result.
 	 * @param query
@@ -84,44 +72,6 @@ public class DatabaseHandler {
 
 	}
 
-	/**
-	 * Connects to a database using the provided parameters.
-	 * @param dbms - database management system, either "sqlserver" or "mysql"
-	 * @param serverName - server address
-	 * @param portNumber - port number
-	 * @param dbName - database name
-	 * @param userName 
-	 * @param password 
-	 * @return
-	 * @throws SQLException
-	 */
-	public static Connection connectToDatabase(String dbms, String serverName, String portNumber, String dbName, String userName, String password) throws SQLException {
-		{
-			Connection conn = null;
-			Properties connectionProps = new Properties();
-			connectionProps.put("user", userName);
-			connectionProps.put("password", password);
-
-			// Using a driver manager:
-
-			if (dbms.equals("mysql")) {
-				//	        DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-				conn =
-						DriverManager.getConnection("jdbc:" + dbms + "://" + serverName +
-								":" + portNumber + "/" + dbName,
-								connectionProps);
-				conn.setCatalog(dbName);
-			} else if (dbms.equals("sqlserver")) {
-				//	        DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());
-				conn =
-						DriverManager.getConnection("jdbc:" + dbms + "://" + serverName +
-								":" + portNumber + ";" + "databasename=" + dbName + ";" + "user=" + userName + ";" +
-								"password=" + password);
-			}
-			System.out.println("Connected to database");
-			return conn;
-		}
-	}
 
 	public static void closeConnection(Connection conn) {
 		System.out.println("Releasing all open resources ...");
@@ -151,7 +101,10 @@ public class DatabaseHandler {
 	 * @param joinType
 	 * @throws SQLException
 	 */
-
+	public static void saveTableAsCSV(String tableName){
+		String query = ("SELECT * FROM " + tableName);
+	}
+	
 	public static String joinTables(String tables, String joinType, String joinOn) throws SQLException {
 		String query = "";
 		String[] allTables = tables.split(" "); // array of table names
